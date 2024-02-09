@@ -1,0 +1,12 @@
+2024-02-06:
+This is a modified WAVLINK_WN586X3-A_M86X3A_V240113_WO-GDBYFM.bin image from
+Wavlink for WL-WN586X3 v1.
+
+The changes are as follows:
+1) Enable failsafe mode. Failsafe wait time is 60s.
+2) Enable dropbear (sshd).
+3) Always run firstboot so that any previous settings are not carried forward,
+   espcially related to users and passwords.
+4) root password is admin123.
+
+
